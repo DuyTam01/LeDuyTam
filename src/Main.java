@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        DanhSachVatPham ds = new DanhSachVatPham();
+        ds.nhap();
+        ds.xuat();
+        ds.cau3();
+        ds.cau4();
     }
 }
+
+
